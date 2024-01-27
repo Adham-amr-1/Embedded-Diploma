@@ -12,7 +12,11 @@ int main()
     else{
         printf("The Number Is odd\n");
     }
-    for(int i=2;i<=(x/2);i++){
+    if((x == 0)|| (x == 1)){
+        printf("The Number is not prime\n");
+    }
+    else{
+        for(int i=2;i<=(x/2);i++){
         if(x%i == 0){
             flag = 1;
             break;
@@ -24,5 +28,8 @@ int main()
     else{
         printf("The Number is prime\n");
     }
+    }
+
+
     return 0;
 }
