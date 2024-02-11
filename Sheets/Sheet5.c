@@ -139,5 +139,127 @@ int main()
     *q = b;
     printf("%d %d", *p,a);
     */
+   #include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    /*int arr[10];
+    for(int i = 0; i<10;i++){
+        scanf("%i",&arr[i]);
+    }
+    printf("\nBefore Reversing\n");
+    for(int i = 0; i<10;i++){
+        printf("%i ",arr[i]);
+    }
+    printf("\nAfter Reversing\n");
+    for(int i = 9; i>=0;i--){
+        printf("%i ",arr[i]);
+    }
+    */
+    /*int arr[10],sum = 0;
+    for(int i = 0; i<10;i++){
+        scanf("%i",&arr[i]);
+    }
+
+    for(int i = 0; i<10;i++){
+        sum+=arr[i];
+    }
+    printf("\nSum of array = %i",sum);
+    */
+    /*
+    int arr1[10],arr2[10];
+    for(int i = 0; i<10;i++){
+        scanf("%i",&arr1[i]);
+    }
+    printf("\nArray 1 :\n");
+    for(int i = 0; i<10;i++){
+        printf("%i ",arr1[i]);
+        arr2[i]=arr1[i];
+    }
+    printf("\nArray 2 :\n");
+    for(int i = 0; i<10;i++){
+        printf("%i ",arr2[i]);
+    }*/
+    /*int arr1[5] = {1,3,5,7,8}, arr2[5] = {2,4,9,10,6},arr3[10], max1 = 0, max2 = 0;
+    for(int i = 0; i < 4;i++){
+           int maxindex1 = i ,  maxindex2 = i;
+        for(int j = i + 1 ; j < 5 ; j++){
+        if(arr1[j]>arr1[maxindex2]){
+            maxindex1 = j;
+        }
+        if(arr2[j]>arr2[maxindex2]){
+            maxindex2 = j;
+        }
+        }
+            int temp = arr1[maxindex1];
+            arr1[maxindex1]   = arr1[i];
+            arr1[i] = temp;
+            temp = arr2[maxindex2];
+            arr2[maxindex2]   = arr2[i];
+            arr2[i] = temp;
+    }
+    printf("\nArray 1 :\n");
+    for(int i = 0; i<5;i++){
+        printf("%i ",arr1[i]);
+    }
+    printf("\nArray 2 :\n");
+    for(int i = 0; i<5;i++){
+        printf("%i ",arr2[i]);
+    }
+int i = 0, j = 0, k = 0;
+    while (i < 5 && j < 5) {
+        if (arr1[i] >= arr2[j]) {
+            arr3[k] = arr1[i];
+            i++;
+        } else {
+            arr3[k] = arr2[j];
+            j++;
+        }
+        k++;
+    }
+    while (i < 5) {
+        arr3[k] = arr1[i];
+        k++;
+        i++;
+    }
+    while (j < 5) {
+        arr3[k] = arr2[j];
+        k++;
+        j++;
+    }
+    printf("\nArray 3 :\n");
+    for(int i = 0; i<10;i++){
+        printf("%i ",arr3[i]);
+    }*/
+    /*int arr[5], max = 0 , min = 10000;
+    for(int i = 0; i<5;i++){
+        scanf("%i",&arr[i]);
+    }
+    for(int i = 0; i < 5 ; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+        if(arr[i] < min){
+            min = arr[i];
+        }
+    }
+    printf("Max = %i\nMin = %i",max,min);
+    */
+    /*int arr[10] = {1,1,1,2,3,4,5,5,8,8};
+    for(int i = 0; i<10;i++){
+            int isUnique = 1;
+        for(int j = 0 ;j < i;j++){
+            if(arr[i] == arr[j]){
+                isUnique = 0;
+                break;
+            }
+        }
+        if (isUnique) {
+            printf("%d ", arr[i]);
+        }
+    }*/
+    return 0;
+}
+
     return 0;
 }
